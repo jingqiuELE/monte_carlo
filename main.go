@@ -21,7 +21,7 @@ func main() {
 		x := r1.Float64()
 		y := r1.Float64()
 		d := math.Sqrt(math.Pow(x, 2) + math.Pow(y, 2))
-		if d <= 1.0 {
+		if d < 1.0 {
 			quadrant += 1
 		}
 	}
